@@ -1,4 +1,4 @@
-              Css CheatSheet
+                                                         Css CheatSheet
 
 # Font
 There are many properties related to the font, such as the face, weight, style, etc. These properties allow you to change the style or complete look of your text.
@@ -44,19 +44,157 @@ letter-spacing: .15em;
 ```
 text-decoration: underline;
 ```
-### Word-Spacing
+# Background
+
+As the name suggests, these properties are related to background, i.e., you can change the color, image, position, size, etc., of the document.
+Background-Image
 ```
-word-spacing: 0.25em;
+background-image: url("Path");
 ```
-### Text-Transform
+### Background-Position
 ```
-text-transform: uppercase;
+background-position: right top;
 ```
-### Text-Indent
+### Background-Size
 ```
-text-indent: 0.5cm;
+background-size: cover;
 ```
-### Line-Height
+### Background-Repeat
 ```
-line-height: normal;
+background-repeat: no-repeat;
+```
+### Background-Attachment
+```
+background-attachment: scroll;
+```
+### Background-Color
+```
+background-color: fuchsia;
+```
+### Background
+```
+background: color image repeat attachment position;
+```
+# Border
+
+Border properties are used to change the style, radius, color, etc., of buttons or other items of the document.
+
+### Border-Width
+```
+border-width: 5px;
+```
+### Border-Style
+```
+border-style: solid;
+```
+### Border-Color
+```
+border-color: aqua;
+```
+### Border-Radius
+```
+border-radius: 15px;
+```
+### Border
+```
+border: width style color;
+```
+# Box Model
+
+In laymen's terms, the CSS box model is a container that wraps around every HTML element. It consists of margins, borders, padding, and the actual content. It is used to create the design and layout of web pages.
+
+### Float
+```
+float: none;
+```
+### Clear
+```
+clear: both;
+```
+### Display
+```
+display: block;
+```
+### Height
+```
+height: fit-content;
+```
+### Width
+```
+width: auto;
+```
+### Margin
+```
+margin: top right bottom left;
+```
+### Padding
+```
+padding: top right bottom left;
+```
+### Overflow
+```
+overflow: hidden;
+```
+### Visibility
+```
+visibility: visible;
+```
+# Colors
+
+With the help of the color property, one can give color to text, shape, or any other object.
+
+# Color
+```
+color: cornsilk;
+```
+### Opacity
+```
+opacity: 4;
+```
+# Template Layout
+
+Specifies the visual look of the content inside a template
+### Box-Align
+```
+box-align: start;
+```
+### Box-Direction
+```
+box-direction: normal;
+```
+### Box-Flex
+```
+box-flex: normal;
+```
+### Box-Flex-Group
+```
+box-flex-group: 2;
+```
+### Box-Orient
+```
+box-orient: inline;
+```
+### Box-Pack
+```
+box-pack: justify;
+```
+### Box-Sizing
+```
+box-sizing: margin-box;
+```
+### max-width
+```
+max-width: 800px;
+```
+### min-width
+```
+min-width: 500px;
+```
+### max-height
+```
+max-height: 100px;
+```
+### min-height
+```
+min-height: 80px;
 ```
